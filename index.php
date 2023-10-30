@@ -14,6 +14,9 @@
   <article>
     <div>
       <h1>Hello_World</h1>
+      <?php
+        print "<pre>"; print_r(phpinfo()); print "</pre>";
+      ?>
     </div>
   </article>
 </body>
